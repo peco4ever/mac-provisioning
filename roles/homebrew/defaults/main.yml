@@ -1,0 +1,60 @@
+---
+homebrew_taps:
+  - sanemat/font
+  - homebrew/cask-fonts
+homebrew_packages:
+  - { name: asdf }
+  - { name: awscli }
+  - { name: colordiff }
+  - { name: curl }
+  - { name: direnv }
+  - { name: git }
+  - { name: graphviz }
+  - { name: imagemagick }
+  - { name: jq }
+  - { name: mysql }
+  - { name: neovim/neovim/neovim }
+  - { name: nkf }
+  - { name: openssl }
+  - { name: peco }
+  - { name: rails-completion }
+  - { name: readline }
+  - { name: reattach-to-user-namespace }
+  - { name: redis }
+  - { name: sl }
+  - { name: starship }
+  - { name: terraform }
+  - { name: tig }
+  - { name: tmux }
+  - { name: tree }
+  - { name: wget }
+  - { name: yarn }
+  - { name: zsh }
+  - { name: zsh-completions }
+
+homebrew_cask_packages:
+  - { name: 1password }
+  - { name: android-studio }
+  - { name: appcleaner }
+  - { name: figma }
+  - { name: fliqlo }
+  - { name: google-chrome }
+  - { name: google-japanese-ime }
+  - { name: font-hackgen }
+  - { name: font-hackgen-nerd }
+  - { name: iterm2 }
+  - { name: karabiner-elements }
+  - { name: macvim }
+  - { name: ngrok }
+  - { name: notion }
+  - { name: postman }
+  - { name: raycast }
+  - { name: sequel-ace }
+  - { name: sequel-pro }
+  - { name: skitch }
+  - { name: slack }
+  - { name: spotify }
+  - { name: xquartz }
+  - { name: wireshark }
+  - { name: visual-studio-code }
+  - { name: zoom }

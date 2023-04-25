@@ -1,0 +1,15 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  become: no
+  environment:
+    HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+  roles:
+    - homebrew
+    - mas
+    - dotfiles
+    - zsh
+    - asdf
+    - working_directories
+    - vscode
+    - ssh
